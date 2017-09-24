@@ -1,10 +1,10 @@
-# Introdução
+# Introduction
 
-O componente DatabaseFileSystem é responsável por criar um sistema de arquivo baseado num banco de dados. Todos os arquivos e diretórios são armazenados num banco de dados garantindo assim uma transação.
+The DatabaseFileSystem component is responsible for creating a file system based on a database. All files and directories are stored in a database thus ensuring a transaction.
 
-# Exemplo
+# Example
 
-O exemplo abaixo mostra a criação um sistema de arquivo com um diretório e um arquivo com um conteúdo:
+The example below shows the creation of a file system with a directory and a file with a content:
 
 ```swift
 let folder = MemoryFileSystem().home()
